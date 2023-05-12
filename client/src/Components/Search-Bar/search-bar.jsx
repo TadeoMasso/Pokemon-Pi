@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { getNamePokes } from "../../redux/actions";
+import { getNamePokes } from "../../redux/actions/pokeActions";
 
 export default function SearchBar() {
   const dispatch = useDispatch();

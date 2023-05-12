@@ -1,0 +1,48 @@
+
+.divLand{
+    font-family: fantasy;
+    background: linear-gradient(rgb(160, 35, 18), rgba(247, 247, 247, 0.242));
+    box-shadow: 30px 30px 50px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.uno{
+    color: red;
+}
+.dos{
+    color: black
+}
+.fotoIntro{
+    margin: 15px;
+    top: 40%;
+    left: 0%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    display: flex; 
+}
+.fotoIntro2{
+    margin: 15px;
+    top: 40%;
+    left: 30%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+.fotoIntro3{
+    margin: 15px;
+    top: 40%;
+    left: 70%;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    display: flex;
+}

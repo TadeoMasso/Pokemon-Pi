@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getDetail } from "../../redux/actions";
+import { useDispatch } from "react-redux";
 // import Nav from "../Nav/Nav";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-function  Detail(prop) {
+function  Detail() {
   const dispatch = useDispatch();
   const params = useParams()
   const [selectP, setselectP] = useState({})
